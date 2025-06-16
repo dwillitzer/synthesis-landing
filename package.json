@@ -1,0 +1,25 @@
+{
+  "name": "synthesis-landing",
+  "version": "1.0.0",
+  "description": "Official landing page for Synthesis Technologies - Advanced AI and Cognitive Computing Systems",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "wrangler pages deploy public --project-name synthesis-landing",
+    "preview": "wrangler pages dev public"
+  },
+  "keywords": [
+    "synthesis",
+    "artificial-intelligence",
+    "cognitive-computing",
+    "research",
+    "technology"
+  ],
+  "author": "Synthesis Technologies",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
